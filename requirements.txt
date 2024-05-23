@@ -1,0 +1,7 @@
+json
+pandas
+boto3
+io
+datetime
+os
+dotenv
