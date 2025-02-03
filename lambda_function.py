@@ -7,6 +7,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
+## sample lambda function which can be functional only in aws and boto3
 
 def lambda_handler(event, context):
     input_bucket = event["Records"][0]['s3']['bucket']['name']
